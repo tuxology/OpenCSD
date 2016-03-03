@@ -1,0 +1,16 @@
+For the CoreSight Framework and Drivers
+---------------------------------------
+* Upstream ETMv4 and TMC driver enhancement for interaction with
+  the Perf core.
+* Modify the etm-perf driver to received sink definition from the
+  Perf cmd line tools.
+* Add more filtering capabilities, i.e start/stop address filtering.
+* Fix power management issues.
+
+For the Perf tools
+-----------------
+* Enable other trace protocols when available (ETMv3 etc.)
+* Enable branch stack sampling/call stack sampling
+* Support/mark sw interrupts/sys calls
+* Modify the Perf Flex/Bison parser to added sink definition
+  from the cmd line.
