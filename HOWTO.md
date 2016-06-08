@@ -223,7 +223,7 @@ to be sure everything is clean.
 
     linaro@t430:~/linaro/coresight/feb24$ rm -rf ~/.debug
     linaro@t430:~/linaro/coresight/feb24$ cp -dpR .debug ~/
-    linaro@t430:~/linaro/coresight/feb24$ export LD_LIBRARY_PATH=~/linaro/coresight/opencsd-0v002/decoder/lib/linux64/debug/
+    linaro@t430:~/linaro/coresight/feb24$ export LD_LIBRARY_PATH=~/linaro/coresight/opencsd-0v002/decoder/lib/linux64/dbg/
     linaro@t430:~/linaro/coresight/feb24$ ../perf-opencsd-4.7-rc1/tools/perf/perf report --stdio
 
     # To display the perf.data header info, please use --header/--header-only options.
